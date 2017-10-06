@@ -20,6 +20,8 @@ $(document).ready(function() {
 		'overlayShow'	:	false
 	});
 	
-	$('#search').hideseek();
+	$('#search').hideseek({
+		attribute: 'alt'
+	});
 });
 

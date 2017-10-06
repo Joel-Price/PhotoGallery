@@ -5,16 +5,15 @@
    <head>
       <link rel="stylesheet" type="text/css" href="css/styles.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css" />
-       <script type="text/javascript" src="scripts.js"></script> 
       <title>Photo Gallery</title>
    </head>
    <body>
       <header><input type="text" name="search" id="search" action="" submit ="" placeholder="search" data-list=".list"></header>
       <div class="container">
          <div class="row list">
-            <div class="column ltbox-trigger" data-type="haybales countryside straw fields">
-            <a href="photos/01.jpg" data-fancybox="images"  data-caption="Hay Bales<br/>I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
-               	<img src="photos/thumbnails/01.jpg" alt="Haybales" >
+            <div class="column ltbox-trigger list" data-type="haybales countryside straw fields">
+            <a href="photos/01.jpg" data-fancybox="images"  data-caption="Hay Bales<br/>I love hay bales. Took this snap on a drive through the countryside past some straw fields." class="list">
+               	<img src="photos/thumbnails/01.jpg" alt="Haybales">
             </a>
             </div>
             <div class="column ltbox-trigger">
@@ -88,6 +87,8 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
 
       <script type="text/javascript" src="https://cdn.rawgit.com/vdw/HideSeek/master/jquery.hideseek.min.js"></script>
+
+      <script type="text/javascript" src="scripts.js"></script> 
 
    </body>
 </html>
