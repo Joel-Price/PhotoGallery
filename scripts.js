@@ -21,7 +21,7 @@ $(document).ready(function() {
 	});
 	
 	$('#search').hideseek({
-		attribute: 'alt'
+		attribute: 'data-type'
 	});
 });
 
